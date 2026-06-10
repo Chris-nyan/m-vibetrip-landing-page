@@ -30,7 +30,7 @@ export const ARTICLES = [
   { cat: 'Music', date: 'Apr 2026', rt: '3 min',
     title: '808 Festival Bangkok 2026: The Indoor EDM Experience Redefined',
     exc: 'December 4–6 at BITEC Bangna. Why 808 is Bangkok\'s unmissable December tradition.',
-    img: 'https://images.unsplash.com/photo-1571266028243-d220c6cd1d1a?fm=jpg&q=82&w=800&fit=crop',
+    img: 'https://assets.brandinside.asia/uploads/2025/12/1021559-1024x683.jpg
     body: "<p>808 Festival Bangkok — 5th edition — spreads across four stages: Bassline Hall (12,000 capacity), Techno Bunker, Monstercat Stage, and the new Chill Garden. Fully indoor.</p><h3>VIP Table Experience</h3><p>808 Festival is renowned for VIP table culture. M-VibeTrip secures VIP and SVIP tables at pre-sale pricing.</p><h3>808 Bangkok Weekend Package</h3><p>3-day passes + Bangkok hotel 2 nights + limousine transfers + VIP after-party + festival photographer. From ฿10,800 per person.</p>" },
   { cat: 'Travel', date: 'Mar 2026', rt: '4 min',
     title: 'KBZ Pay: How Myanmar Travelers Can Book Thailand Trips Instantly',
@@ -85,7 +85,7 @@ export const SERVICES = [
   { name: 'Limousine & Car Rental', desc: 'Premium ground transport and airport transfers.', features: 'Airport transfers,Luxury limousines,Group minivans,Self-drive rental', img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?fm=jpg&q=82&w=600&fit=crop' },
   { name: 'Festival Tickets & VIP Tables', desc: 'GA, VIP and SVIP table access to major festivals.', features: 'Pre-sale allocation,VIP & SVIP tables,Bottle service,Priority entry', img: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?fm=jpg&q=82&w=600&fit=crop' },
   { name: 'Photography, Video & Drone', desc: 'Cinematic coverage of your trip and events.', features: 'Professional photographer,Aerial drone footage,Same-day highlight reel,Full edited gallery', img: 'https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?fm=jpg&q=82&w=600&fit=crop' },
-  { name: 'DJ & Event Production', desc: 'Professional DJs and full event production.', features: 'Resident & guest DJs,Sound & lighting,Stage production,Pool & villa parties', img: 'https://images.unsplash.com/photo-1571266028243-d220c6cd1d1a?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'DJ & Event Production', desc: 'Professional DJs and full event production.', features: 'Resident & guest DJs,Sound & lighting,Stage production,Pool & villa parties', img: 'https://assets.brandinside.asia/uploads/2025/12/1021559-1024x683.jpg
   { name: 'Private Tours & Experiences', desc: 'Bespoke guided experiences across Thailand.', features: 'Island hopping,Cultural tours,Food & nightlife,Custom itineraries', img: 'https://images.unsplash.com/photo-1528181304800-259b08848526?fm=jpg&q=82&w=600&fit=crop' }
 ];
 
