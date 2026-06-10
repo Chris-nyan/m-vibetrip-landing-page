@@ -1,0 +1,97 @@
+// Initial content seeded into the database on first run.
+// After seeding, all content is managed via the admin panel / API.
+
+export const ARTICLES = [
+  { cat: 'Festival', date: 'May 2026', rt: '5 min',
+    title: 'Tomorrowland Thailand 2026: The Complete Guide',
+    exc: "The world's most iconic festival arrives in Asia for the first time. Here's everything you need to know.",
+    img: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Tomorrowland Thailand 2026 marks a historic first — the world's most beloved music festival plants its flag in Southeast Asia. December 11–13 at Wisdom Valley, Chonburi, 90 minutes from Bangkok.</p><h3>What to Expect</h3><p>50,000 attendees per day across six iconic stages including the legendary Mainstage, CORE, FREEDOM, ALCHIMIST and a Thailand-exclusive stage.</p><h3>Ticket Categories</h3><ul><li><strong>GA Pass</strong> — ฿15,000 · full access to all stages</li><li><strong>VIP</strong> — ฿22,500 · elevated platforms, dedicated bars</li><li><strong>SVIP Table</strong> — ฿45,000 · bottle service &amp; personal concierge</li></ul><h3>M-VibeTrip Tomorrowland Bundle</h3><p>3-day passes + pool villa in Pattaya + daily festival shuttle + professional photographer. From ฿19,800 per person. Book early — we only hold a limited allocation.</p>" },
+  { cat: 'Festival', date: 'Apr 2026', rt: '4 min',
+    title: 'EDC Thailand December 2026: Phuket Gets Its Own Electric Daisy',
+    exc: "After the June success, EDC returns for a December edition in Phuket. Here's what's different.",
+    img: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Electric Daisy Carnival heads to Phuket's Rhythm Park for December 18–20, 2026 — an outdoor tropical experience with ocean breezes and 100+ DJs across techno, house, and drum &amp; bass.</p><h3>The Venue</h3><p>Rhythm Park is purpose-built for 30,000 daily attendees. Massive LED stages surrounded by palm trees with Andaman Sea air.</p><h3>EDC Phuket Bundle</h3><p>3-day passes + pool villa 2 nights Phuket + return BKK–Phuket flights + private airport transfers. From ฿14,500 per person.</p>" },
+  { cat: 'Yacht', date: 'Apr 2026', rt: '6 min',
+    title: 'Phuket vs Pattaya: Which Destination for Your Yacht Charter?',
+    exc: 'Both offer world-class waters — but the experience is completely different. The definitive comparison.',
+    img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Thailand is blessed with two world-class marine destinations. Both are spectacular, but the experience of chartering a yacht at each is fundamentally different.</p><h3>Phuket: Drama &amp; Grandeur</h3><p>Limestone karsts at Phang Nga Bay, Phi Phi Island and the Similan Islands — the most visually dramatic sailing in Southeast Asia. Best season: November to April.</p><h3>Pattaya: Accessibility &amp; Value</h3><p>Two hours from Bangkok, year-round calm Gulf waters, Koh Larn and Koh Sak — ideal for corporate charters.</p><h3>Our Fleet</h3><ul><li><strong>Phuket:</strong> 15 vessels including the iconic 132ft Paradise 60 superyacht</li><li><strong>Pattaya:</strong> 10 vessels including motor yachts for day charters</li></ul>" },
+  { cat: 'Travel', date: 'May 2026', rt: '4 min',
+    title: 'Rainy Season Thailand: The Best Kept Secret in Luxury Travel',
+    exc: 'Fewer crowds, lower villa rates, lush landscapes. Low season is actually premium season if you know where to go.',
+    img: 'https://images.unsplash.com/photo-1649838329264-1264c87c9998?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Those who avoid Thailand's rainy season (May–October) miss the country at its most beautiful. Lower hotel rates, empty beaches, green jungle landscapes.</p><h3>Why Rainy Season is Perfect for Pool Villas</h3><p>Heavy rainfall arrives in intense 30-60 minute bursts, not all-day downpours. Villas are 30–40% cheaper than peak season rates.</p><h3>Best Destinations</h3><ul><li><strong>Pattaya:</strong> Gulf coast has lighter rainfall</li><li><strong>Koh Samui:</strong> Driest period is August–October</li><li><strong>Bangkok:</strong> City attractions fully accessible</li></ul>" },
+  { cat: 'Lifestyle', date: 'Mar 2026', rt: '5 min',
+    title: 'How to Plan the Perfect Corporate Retreat in Thailand',
+    exc: "Thailand is Southeast Asia's premier corporate offsite destination. Here's the complete planning guide.",
+    img: 'https://images.unsplash.com/photo-1562281302-809108fd533c?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Thailand has become the most sought-after destination for corporate retreats in Southeast Asia.</p><h3>The Right Format</h3><p>2:1 ratio — two nights of experience for every one day of formal meetings.</p><h3>What M-VibeTrip Handles</h3><ul><li>Full itinerary planning and venue sourcing</li><li>Air tickets and group transfers</li><li>Professional photographer and aerial drone coverage</li><li>DJ and event production</li><li>Premium catered meals and open bar packages</li></ul>" },
+  { cat: 'Music', date: 'Apr 2026', rt: '3 min',
+    title: '808 Festival Bangkok 2026: The Indoor EDM Experience Redefined',
+    exc: 'December 4–6 at BITEC Bangna. Why 808 is Bangkok\'s unmissable December tradition.',
+    img: 'https://images.unsplash.com/photo-1571266028243-d220c6cd1d1a?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>808 Festival Bangkok — 5th edition — spreads across four stages: Bassline Hall (12,000 capacity), Techno Bunker, Monstercat Stage, and the new Chill Garden. Fully indoor.</p><h3>VIP Table Experience</h3><p>808 Festival is renowned for VIP table culture. M-VibeTrip secures VIP and SVIP tables at pre-sale pricing.</p><h3>808 Bangkok Weekend Package</h3><p>3-day passes + Bangkok hotel 2 nights + limousine transfers + VIP after-party + festival photographer. From ฿10,800 per person.</p>" },
+  { cat: 'Travel', date: 'Mar 2026', rt: '4 min',
+    title: 'KBZ Pay: How Myanmar Travelers Can Book Thailand Trips Instantly',
+    exc: 'M-VibeTrip integrates KBZ Pay — book and pay in MMK with zero friction.',
+    img: 'https://images.unsplash.com/photo-1534008897995-27a23e859048?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>M-VibeTrip has officially integrated KBZ Pay — Myanmar's leading mobile payment platform with 20 million+ registered users. Choose your package, select \"KBZ Pay (MMK)\" and we send a payment link within 2 hours.</p><h3>Available for All Services</h3><ul><li>Festival tickets (all events)</li><li>All-inclusive travel packages</li><li>Yacht charters and transport</li><li>Hotel and villa bookings</li></ul><p>Our bilingual Thai-Myanmar team is available 24/7 via WhatsApp.</p>" },
+  { cat: 'Yacht', date: 'Feb 2026', rt: '5 min',
+    title: "Inside the Paradise 60: Thailand's Most Iconic Superyacht",
+    exc: 'We go on board the 132ft Paradise 60 — the crown jewel of our Phuket fleet.',
+    img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>At 132 feet (40 metres) in length, the Paradise 60 accommodates up to 120 day guests.</p><h3>On Board</h3><p>Main deck: wraparound seating, two premium bars, professional DJ sound system. Upper deck: panoramic Andaman views. Sun deck: Jacuzzi, sunbeds.</p><h3>Perfect For</h3><ul><li>Corporate team days (40–100 guests)</li><li>Product launch events on the water</li><li>Wedding and celebration receptions</li><li>VIP entertainment and brand activations</li></ul>" },
+  { cat: 'Lifestyle', date: 'Feb 2026', rt: '3 min',
+    title: '5 Reasons University Group Trips to Thailand Beat Any Typical Holiday',
+    exc: 'Why a curated Thailand group trip with M-VibeTrip creates memories that last decades.',
+    img: 'https://images.unsplash.com/photo-1673627114831-72296089fb6d?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>The classic university holiday is fine. But if you're coordinating 20–30 friends to travel, why settle for generic?</p><h3>1. The Photography Changes Everything</h3><p>A professional photographer and drone operator transform the experience.</p><h3>2. Zero Logistics Stress</h3><p>Airport pickup, villa, transport, DJ, food and drinks — all handled.</p><h3>3. The DJ Set Elevates Everything</h3><p>A professional DJ performing a sunset set poolside.</p><h3>4. More Affordable Than You Think</h3><p>Split across 20–30 people, fully inclusive pool villa packages start from ฿3,500 per person.</p><h3>5. Rainy Season Advantage</h3><p>Travel May–September and villa rates drop significantly.</p>" },
+  { cat: 'Festival', date: 'Jan 2026', rt: '4 min',
+    title: "Circuit Festival Asia 2026: Pattaya's Iconic Dance Event Returns",
+    exc: 'For the 7th consecutive year, The Zign Hotel hosts Southeast Asia\'s premier dance festival.',
+    img: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Circuit Festival Asia returns to The Zign Hotel, Pattaya, June 19–21, 2026. Three days of world-class pool parties, beach events and ballroom nights.</p><h3>The Events</h3><p>Beach Opening Party Friday, Main Pool Party Saturday, legendary Closing White Party Sunday.</p><h3>Circuit Festival Package</h3><p>3-day passes + hotel 2 nights Pattaya + airport transfers + professional photographer. From ฿8,200 per person.</p>" },
+  { cat: 'Music', date: 'Jan 2026', rt: '3 min',
+    title: 'Wonderfruit 2026: Where Sustainability Meets World-Class Music',
+    exc: "Thailand's most unique festival blends eco-consciousness with art, music and genuine luxury.",
+    img: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Wonderfruit Festival at the Fields at Siam Country Club, Pattaya — part music festival, part art installation, part sustainability summit.</p><h3>The Music</h3><p>Electronic music, world music and live performances across six stages. Previous headliners: Bonobo, Peggy Gou, Tame Impala.</p><h3>The Art</h3><p>50+ large-scale art installations spread across the grounds.</p>" },
+  { cat: 'Lifestyle', date: 'Dec 2025', rt: '4 min',
+    title: "Luxury Pool Villa Guide: Phuket's Top Picks for 2026",
+    exc: 'Sea-view infinity pools, private chefs, unmatched privacy — our curated Phuket villa selection.',
+    img: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>Phuket's private pool villa market has evolved dramatically — architectural masterpieces offering world-class resort experiences with complete privacy.</p><h3>West vs East Coast</h3><p>West coast (Patong, Kamala, Surin, Bang Tao) delivers famous Andaman sunsets and beach access.</p><h3>Villa Sizes</h3><ul><li><strong>2–4 bedrooms:</strong> Couple retreats and small groups</li><li><strong>5–8 bedrooms:</strong> Large friend or family groups</li><li><strong>10+ bedrooms:</strong> Corporate retreats and celebrations</li></ul>" },
+  { cat: 'Travel', date: 'Nov 2025', rt: '5 min',
+    title: 'The Ultimate Bangkok to Pattaya Weekend: Done Right',
+    exc: "Two hours, two worlds. Thailand's most popular short break — here's how to do it properly.",
+    img: 'https://images.unsplash.com/photo-1534008897995-27a23e859048?fm=jpg&q=82&w=800&fit=crop',
+    body: "<p>The Bangkok-to-Pattaya weekend has become the definitive short escape.</p><h3>Friday: The Departure</h3><p>Limousine pickup from Bangkok central Friday afternoon. DJ-soundtracked welcome dinner at the villa.</p><h3>Saturday: The Full Day</h3><p>Private yacht charter from Pattaya Marina, island-hopping to Koh Larn, catered on-board lunch. Golden hour photography session poolside.</p><h3>Sunday: The Wind-Down</h3><p>Private chef breakfast, optional massage, pool time, then return limousine to Bangkok.</p>" }
+];
+
+export const FESTIVALS = [
+  { name: 'Tomorrowland Thailand 2026', dates: 'Dec 11–13, 2026', venue: 'Wisdom Valley, Chonburi', price_from: 15000, status: 'live' },
+  { name: 'EDC Thailand Dec 2026',      dates: 'Dec 18–20, 2026', venue: 'Rhythm Park, Phuket',     price_from: 9500,  status: 'live' },
+  { name: '808 Festival Bangkok',       dates: 'Dec 4–6, 2026',   venue: 'BITEC Bangna, Bangkok',   price_from: 6800,  status: 'live' },
+  { name: 'Circuit Festival Asia',      dates: 'Jun 19–21, 2026', venue: 'The Zign Hotel, Pattaya', price_from: 8200,  status: 'live' },
+  { name: 'Wonderfruit Festival',       dates: 'Dec 2026',        venue: 'Siam Country Club, Pattaya', price_from: 11000, status: 'live' },
+  { name: 'S2O Songkran 2027',          dates: 'Apr 2027',        venue: 'Bangkok',                 price_from: 12000, status: 'upcoming' }
+];
+
+export const SERVICES = [
+  { name: 'Yacht Charters', desc: 'Private superyacht and motor yacht charters in Phuket and Pattaya.', features: 'Paradise 60 superyacht,Day & sunset charters,On-board catering & bar,Professional crew', img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Flight Tickets & Private Jets', desc: 'Commercial and private aviation across the region.', features: 'Group flight booking,Private jet charter,Regional & international,Flexible rebooking', img: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Hotel & Villa Booking', desc: 'Curated luxury hotels and private pool villas.', features: 'Private pool villas,5-star hotels,Group allocations,Best-rate guarantee', img: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Limousine & Car Rental', desc: 'Premium ground transport and airport transfers.', features: 'Airport transfers,Luxury limousines,Group minivans,Self-drive rental', img: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Festival Tickets & VIP Tables', desc: 'GA, VIP and SVIP table access to major festivals.', features: 'Pre-sale allocation,VIP & SVIP tables,Bottle service,Priority entry', img: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Photography, Video & Drone', desc: 'Cinematic coverage of your trip and events.', features: 'Professional photographer,Aerial drone footage,Same-day highlight reel,Full edited gallery', img: 'https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'DJ & Event Production', desc: 'Professional DJs and full event production.', features: 'Resident & guest DJs,Sound & lighting,Stage production,Pool & villa parties', img: 'https://images.unsplash.com/photo-1571266028243-d220c6cd1d1a?fm=jpg&q=82&w=600&fit=crop' },
+  { name: 'Private Tours & Experiences', desc: 'Bespoke guided experiences across Thailand.', features: 'Island hopping,Cultural tours,Food & nightlife,Custom itineraries', img: 'https://images.unsplash.com/photo-1528181304800-259b08848526?fm=jpg&q=82&w=600&fit=crop' }
+];
+
+export const PACKAGES = [
+  { name: 'Executive Retreat Phuket', category: 'Corporate Retreat', price_from: 8000, group_size: '10–40 pax', desc: 'Premium corporate offsite in Phuket.', inclusions: 'Pool villa 3 nights\nMeeting facilities\nYacht charter day\nProfessional photographer\nGroup transfers' },
+  { name: 'Yacht Retreat Pattaya', category: 'Corporate Retreat', price_from: 12000, group_size: '20–60 pax', desc: 'Yacht-centred corporate experience near Bangkok.', inclusions: 'Superyacht charter\nHotel 2 nights\nLimousine transfers\nEvent production\nCatered lunch & bar' },
+  { name: 'Phuket Private Villa', category: 'Pool Villa Luxury', price_from: 12000, group_size: '2–12 pax', desc: 'Sea-view infinity pool villa with private chef.', inclusions: 'Pool villa 3 nights\nPrivate chef\nAirport transfers\nDaily housekeeping\nConcierge' },
+  { name: 'Rainy Season Chill', category: 'Uni / Student Staycation', price_from: 3500, group_size: '15–30 pax', desc: 'Affordable group villa staycation.', inclusions: 'Pool villa 2 nights\nDJ sunset set\nTransport\nGroup catering\nPhotographer' }
+];

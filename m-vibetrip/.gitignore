@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+*.local
+
+# Database files (runtime data — should not be committed)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / coverage
+dist/
+coverage/

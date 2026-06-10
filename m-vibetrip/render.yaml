@@ -1,0 +1,41 @@
+# Render.com Blueprint — deploys M-VibeTrip with a persistent disk for the SQLite DB.
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: m-vibetrip
+    runtime: node
+    plan: starter
+    region: singapore            # closest to Thailand / Myanmar
+    buildCommand: npm install
+    startCommand: node src/server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_PATH
+        value: /var/data/mvibetrip.db
+      - key: JWT_SECRET
+        generateValue: true       # Render generates a strong secret
+      - key: ADMIN_USERNAME
+        sync: false               # set in dashboard
+      - key: ADMIN_PASSWORD
+        sync: false               # set in dashboard (first boot only)
+      - key: SITE_URL
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: NOTIFY_TO
+        sync: false
+      - key: WHATSAPP_NUMBER
+        value: "66980791316"
+    disk:
+      name: mvibetrip-data
+      mountPath: /var/data
+      sizeGB: 1

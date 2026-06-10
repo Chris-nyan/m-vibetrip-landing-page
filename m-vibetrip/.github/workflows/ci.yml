@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Seed database (sanity check)
+        run: npm run seed
+        env:
+          JWT_SECRET: ci-test-secret-not-used-in-prod
+
+      - name: Boot server smoke test
+        run: |
+          JWT_SECRET=ci node src/server.js &
+          SERVER_PID=$!
+          sleep 4
+          curl -fsS http://localhost:8080/api/health
+          curl -fsS http://localhost:8080/api/content/articles | head -c 200
+          kill $SERVER_PID
